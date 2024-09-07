@@ -8,8 +8,8 @@ model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 tracker = Sort()
 
 # Input and Output paths
-video_path = r"C:\Users\user\Desktop\project\github ka copy\videos\videoplayback_(2).mp4"
-output_path = r"C:\Users\user\Desktop\project\github ka copy\output\output.mp4"
+video_path = r"C:\Users\user\Desktop\project\videos\videoplayback_(2).mp4"
+output_path = r"C:\Users\user\Desktop\project\output\output.mp4"
 
 # Open video
 cap = cv2.VideoCapture(video_path)
